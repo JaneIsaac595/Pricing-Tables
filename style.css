@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    height: 435px;
+    width: 245px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin: 1rem;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading-text {
+    text-align: center;
+    padding: 0.5rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: antiquewhite;
+}
+
+.heading-text.basic {
+    background: linear-gradient(to right, #e0c007 0%, #dd690a 100%);
+}
+
+.heading-text.standard {
+    background: linear-gradient(to right, #d907e0 0%, #8220c4 100%);
+}
+
+.heading-text.premium {
+    background: linear-gradient(to right, #2376d4 0%, #1bd37d 100%);
+}
+
+.heading-text h2 {
+    margin-bottom: 0.5rem;
+}
+
+.heading-text p {
+    font-size: 0.65rem;
+    margin: 0.5rem 0;
+}
+
+.price-section {
+    margin: 2rem 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.instructions-list {
+    padding: 0.5rem;
+    display: flex;
+}
+
+.instructions-list .list-items ul {
+    list-style: none;
+}
+
+.instructions-list .list-items ul li {
+    display: flex;
+    font-size: 0.65rem;
+    padding: 0.25rem 0;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    border-style: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.button.btn1 button {
+    background: linear-gradient(to right, #dd690a 0%, #e0c007 100%);
+}
+
+.button.btn2 button {
+    background: linear-gradient(to right, #8220c4 0%, #d907e0 100%);
+}
+
+.button.btn3 button {
+    background: linear-gradient(to right, #1bd37d 0%, #2376d4 100%);
+}
+
+#icon1,
+#icon2,
+#icon3 {
+    font-weight: 900;
+    font-size: 0.85rem;
+    margin: 0.25rem 0.25rem 0 0;
+    color: blue;
+}
